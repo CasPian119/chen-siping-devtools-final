@@ -27,7 +27,7 @@ README.md              项目说明
 
 ## 修改内容
 
-修改 `index.html` 中的个人介绍、作品和学习笔记；详情文字在 `script.js` 的 `projectDetails` 中。图片放在 `assets/` 并使用相对路径。GitHub 主页在确认账号后填写。请勿在公开仓库提交密码、私钥或服务器凭据。
+修改 `index.html` 中的个人介绍、作品和学习笔记；详情文字在 `script.js` 的 `projectDetails` 中。图片放在 `assets/` 并使用相对路径。GitHub 账号已确认为 `CasPian119`，主页链接已配置；项目远程仓库尚未创建或推送。请勿在公开仓库提交密码、私钥或服务器凭据。
 
 ## Linux 部署
 
@@ -41,6 +41,12 @@ README.md              项目说明
 6. 本地修改并 `git add`、`git commit`、`git push`；服务器进入站点目录运行 `git pull --ff-only`；刷新浏览器验证。
 
 不使用 Pages、Vercel、Netlify 或一键建站面板代替课程要求的 Linux 部署。
+
+配置中 `root` 与静态资源规则参考 [Nginx 官方入门文档](https://nginx.org/en/docs/beginners_guide.html)，站点匹配规则参考 [Nginx location 文档](https://nginx.org/en/docs/http/ngx_http_core_module.html#location)。实际安装路径和服务管理命令须按服务器发行版核对。
+
+## 已完成验证
+
+2026-11-12：JavaScript 语法检查通过；本地 HTTP 预览资源正常，未观察到浏览器警告或错误。桌面和手机断点验证了技术/影像筛选（1/2项）、详情打开与关闭、Escape 关闭、主题切换、笔记展开、移动端菜单及复制地址反馈。手机断点未检测到横向溢出或损坏图片。源码使用本地相对路径，无远程运行依赖。尚未完成实际 Linux/Nginx 环境验收。
 
 ## 提交要求
 
