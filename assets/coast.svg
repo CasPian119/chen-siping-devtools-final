@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">海岸与光：原创示意插画</title>
+  <desc id="desc">蓝色天空中的半圆太阳、层叠远山、平静海面和弧形沙岸。这是原创矢量视觉示意，并非陈思坪拍摄的照片。</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#afcde0"/><stop offset="1" stop-color="#eef0df"/></linearGradient>
+    <linearGradient id="sea" x2="0.15" y2="1"><stop stop-color="#799dad"/><stop offset=".46" stop-color="#537c92"/><stop offset="1" stop-color="#244e6a"/></linearGradient>
+    <linearGradient id="sand" x2=".8" y2="1"><stop stop-color="#e8d9b9"/><stop offset="1" stop-color="#c6b28c"/></linearGradient>
+    <linearGradient id="light" x2="0" y2="1"><stop stop-color="#fff8d7" stop-opacity=".65"/><stop offset="1" stop-color="#fff8d7" stop-opacity="0"/></linearGradient>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".5" fill="#fff" opacity=".1"/><circle cx="5" cy="6" r=".6" fill="#152e3b" opacity=".04"/></pattern>
+    <clipPath id="sunClip"><rect width="1600" height="490"/></clipPath>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#sky)"/>
+  <circle cx="1115" cy="440" r="194" fill="#f6e5b3" clip-path="url(#sunClip)"/>
+  <path d="M0 548L190 430 296 473 452 359 593 446 768 391 976 489 1134 465 1300 518 1600 438V675H0Z" fill="#9bb3b7"/>
+  <path d="M0 603L205 568 372 468 576 552 754 503 987 582 1207 524 1420 566 1600 543V693H0Z" fill="#73939e"/>
+  <path d="M0 640L175 617 317 559 469 628 650 577 829 636 1053 601 1256 634 1461 593 1600 629V727H0Z" fill="#597c8b"/>
+  <path d="M0 664Q390 649 800 666T1600 664V1100H0Z" fill="url(#sea)"/>
+  <path d="M1040 669h152l206 431H821Z" fill="url(#light)" opacity=".42"/>
+  <g fill="none" stroke="#d7e3db" stroke-width="2" opacity=".4">
+    <path d="M996 695h201m-253 19h298m-334 23h370m-320 25h263m-347 26h419m-367 33h292"/>
+    <path d="M86 710h183m91-14h179m-311 81h264m121-37h162m631 13h165M32 836h335m115 24h156m666-9h177M888 924h234"/>
+  </g>
+  <path d="M0 780C214 759 362 789 495 857c134 69 236 89 397 92 244 5 353 57 708 151H0Z" fill="#c5cfbd"/>
+  <path d="M0 803C211 779 358 810 489 878c137 71 263 96 411 94 215-3 417 89 700 128H0Z" fill="url(#sand)"/>
+  <path d="M0 790C214 770 355 801 493 870s245 91 402 91c248 0 422 84 705 139" stroke="#f4eee0" stroke-width="9" fill="none"/>
+  <path d="M0 851C207 837 332 877 469 944s303 108 452 106" stroke="#b7a783" stroke-width="2" fill="none" opacity=".35"/>
+  <path d="M0 1100V976l69-47 50 16 56-84 46 24 31-59 47 48 34-19 79 98 60 32 48 115Z" fill="#4a655c"/>
+  <path d="M0 1100V1038l73-48 56 16 38-58 37 20 48-58 41 51 46-17 73 85 77 38 33 33Z" fill="#314c47"/>
+  <g stroke="#e2d5b1" stroke-width="3" opacity=".55"><path d="M231 1033l-15-77m17 42 20-36m-26 13-24-24M312 1084l-18-62m11 32 20-36"/></g>
+  <g fill="#e5dec9"><ellipse cx="577" cy="994" rx="26" ry="9" transform="rotate(12 577 994)"/><ellipse cx="633" cy="1015" rx="14" ry="5"/><ellipse cx="987" cy="1046" rx="21" ry="7" transform="rotate(14 987 1046)"/></g>
+  <rect width="1600" height="1100" fill="url(#grain)"/>
+  <g stroke="#455b68" stroke-width="3" fill="none" stroke-linecap="round" opacity=".7"><path d="M335 263q14-13 28 0 14-13 28 0M418 227q10-9 20 0 10-9 20 0"/></g>
+</svg>

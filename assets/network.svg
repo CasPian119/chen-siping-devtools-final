@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">连接的形状：原创网络示意插画</title>
+  <desc id="desc">浅蓝背景中的钴蓝布线路径、网络节点和抽象服务器，是原创矢量视觉示意，并非实际网络拓扑记录或实拍照片。</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e3edf4"/><stop offset="1" stop-color="#c6d9eb"/></linearGradient>
+    <linearGradient id="blue" x2="1" y2="1"><stop stop-color="#426ac4"/><stop offset="1" stop-color="#22448f"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#7c9fc2" stroke-opacity=".13"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#315a8f" flood-opacity=".15"/></filter>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <rect width="900" height="700" fill="url(#grid)"/>
+  <circle cx="450" cy="350" r="234" stroke="#aec5df" stroke-width="1" fill="none"/>
+  <circle cx="450" cy="350" r="167" stroke="#adc5de" stroke-width="1" stroke-dasharray="4 12" fill="none"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M205 205h138v148h106M450 353h220V218M450 353v184H256M450 353h136v177h125" stroke="#92acce" stroke-width="16" opacity=".25"/>
+    <path d="M205 195h138v148h106M450 343h220V208M450 343v184H256M450 343h136v177h125" stroke="#325ba9" stroke-width="5"/>
+    <path d="M205 195v148h244M670 208h102v169h-99M256 527v-80h-104M711 520v-83h-41" stroke="#7294c7" stroke-width="3"/>
+    <path d="M450 343V155h101M450 527v85h108" stroke="#8caacf" stroke-width="3" stroke-dasharray="7 9"/>
+  </g>
+  <g fill="#edf4fa" stroke="#3059a7" stroke-width="4"><circle cx="343" cy="195" r="8"/><circle cx="343" cy="343" r="8"/><circle cx="670" cy="343" r="8"/><circle cx="450" cy="527" r="8"/><circle cx="586" cy="520" r="8"/></g>
+  <g filter="url(#shadow)">
+    <rect x="374" y="277" width="153" height="133" rx="24" fill="url(#blue)"/>
+    <rect x="395" y="301" width="111" height="27" rx="6" fill="#dce8f5"/>
+    <rect x="395" y="335" width="111" height="27" rx="6" fill="#b9cee9"/>
+    <rect x="395" y="369" width="111" height="17" rx="5" fill="#7c9fd1"/>
+    <g fill="#325ba9"><circle cx="484" cy="314" r="4"/><circle cx="484" cy="348" r="4"/></g>
+    <rect x="151" y="148" width="108" height="94" rx="19" fill="#f7fafc"/>
+    <path d="M175 174h60v36h-60Z" fill="#6489be"/><path d="M190 222h30m-15-12v12" stroke="#335d9d" stroke-width="4" stroke-linecap="round"/>
+    <rect x="618" y="152" width="105" height="105" rx="22" fill="#f7fafc"/>
+    <circle cx="670" cy="204" r="25" fill="none" stroke="#5278af" stroke-width="3"/>
+    <ellipse cx="670" cy="204" rx="10" ry="25" fill="none" stroke="#5278af" stroke-width="3"/>
+    <path d="M646 204h48m-45-11h42m-42 22h42" stroke="#5278af" stroke-width="2"/>
+    <rect x="204" y="483" width="105" height="88" rx="18" fill="#f7fafc"/>
+    <path d="M233 530c0-12 12-17 21-11 2-20 31-20 34-1 18 1 18 25-1 25h-40c-8 0-14-5-14-13Z" fill="#5b80b8" transform="translate(-6 -6)"/>
+    <rect x="670" y="474" width="82" height="94" rx="18" fill="#f7fafc"/>
+    <rect x="692" y="491" width="38" height="57" rx="5" fill="#7295c3"/>
+    <path d="M705 540h12" stroke="#eaf2f8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="#4671b9"><circle cx="551" cy="155" r="7"/><circle cx="558" cy="612" r="7"/><circle cx="772" cy="377" r="7"/><circle cx="152" cy="447" r="7"/></g>
+  <g fill="#d3eb92" stroke="#edf5d5" stroke-width="4"><circle cx="277" cy="195" r="8"/><circle cx="556" cy="343" r="8"/><circle cx="450" cy="452" r="8"/></g>
+  <path d="M71 78h37M71 78v37M829 622h-37M829 622v-37" stroke="#7697bf" stroke-width="2" fill="none"/>
+</svg>

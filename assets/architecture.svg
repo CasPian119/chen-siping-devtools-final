@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">光落在墙上：原创建筑示意插画</title>
+  <desc id="desc">奶白与陶土红建筑、深色拱门、阶梯和阳光投影构成的几何习作。这是原创矢量示意插画，并非实拍摄影。</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#cbd8db"/><stop offset="1" stop-color="#e8e9df"/></linearGradient>
+    <linearGradient id="wall" x2="1" y2=".4"><stop stop-color="#d39170"/><stop offset="1" stop-color="#b86c50"/></linearGradient>
+    <linearGradient id="arch" x2="1" y2="1"><stop stop-color="#493c35"/><stop offset="1" stop-color="#7c5542"/></linearGradient>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="1" r=".65" fill="#fff" opacity=".08"/><circle cx="5" cy="5" r=".5" fill="#34251b" opacity=".06"/></pattern>
+  </defs>
+  <rect width="900" height="700" fill="url(#sky)"/>
+  <circle cx="725" cy="135" r="69" fill="#f9edc9"/>
+  <path d="M0 387L900 335V700H0Z" fill="#dfd0b9"/>
+  <path d="M0 110H272V601H0Z" fill="#f0e8d8"/>
+  <path d="M272 110l70 62v429h-70Z" fill="#d3c6ad"/>
+  <path d="M73 178h112v210H73Z" fill="#a59d87"/>
+  <path d="M73 178h21v210H73Z" fill="#716e60"/>
+  <path d="M94 299h91M132 178v210" stroke="#c4bba5" stroke-width="7"/>
+  <path d="M342 236H767V581H342Z" fill="url(#wall)"/>
+  <path d="M767 236l97 47v298h-97Z" fill="#a95d47"/>
+  <path d="M342 236l67-38h358v38Z" fill="#e0ab87"/>
+  <path d="M456 581V402a94 94 0 0 1 188 0v179Z" fill="url(#arch)"/>
+  <path d="M456 581V402a94 94 0 0 1 188 0" fill="none" stroke="#e2ad88" stroke-width="15"/>
+  <path d="M479 581V413a71 71 0 0 1 142 0v168Z" fill="#453f34"/>
+  <path d="M550 344v237M487 416h125M487 484h125" stroke="#72644d" stroke-width="5"/>
+  <path d="M0 560l342 13 196 127H0Z" fill="#a79b84" opacity=".4"/>
+  <path d="M272 371l70 35v167l-70-6Z" fill="#8e826c" opacity=".37"/>
+  <path d="M644 581h220l36 119H754Z" fill="#a68f72" opacity=".45"/>
+  <g fill="#f1e4cc" stroke="#c6b79a" stroke-width="1">
+    <path d="M385 630h319v39H385Z"/><path d="M408 609h273v36H408Z"/><path d="M432 588h225v35H432Z"/><path d="M455 570h179v31H455Z"/>
+  </g>
+  <g stroke="#9b8b70" stroke-width="2"><path d="M386 645h317M409 624h271M433 603h223M456 584h177"/></g>
+  <path d="M99 535h67l-8 68h-51Z" fill="#a95f47"/>
+  <ellipse cx="132" cy="535" rx="34" ry="9" fill="#7d523c"/>
+  <g fill="#667660"><path d="M130 543c-37-58-27-122-11-140 8 43 5 90 11 140Z"/><path d="M132 543c0-60 19-99 42-110-5 48-25 79-42 110Z"/><path d="M132 542c-39-24-59-61-55-90 31 18 51 56 55 90Z"/></g>
+  <path d="M0 700h900M0 672l313-57M721 673l179-35" stroke="#c7b99d" stroke-width="2"/>
+  <rect width="900" height="700" fill="url(#grain)"/>
+</svg>
